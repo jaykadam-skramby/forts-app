@@ -1,0 +1,192 @@
+//fort1.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Raigad Fort | Shivaji Forts</title>
+  <link rel="stylesheet" href="css/fort1.css">
+</head>
+<body>
+  <!-- Header -->
+  <header >
+    <div class="logo">
+    <img src="./assets//Rajmudra-removebg-preview.png" alt="logo" />
+      <h2>Maratha Forts</h2>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="./home.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li><a href="./forts.html">Forts</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Fort Banner -->
+  <section class="banner">
+    <img src="./assets/Raigad.jpg" alt="Raigad Fort">
+    <div class="banner-text">
+      <h1>Raigad Fort</h1>
+      <p>The capital fort of the Maratha Empire under Chhatrapati Shivaji Maharaj</p>
+    </div>
+  </section>
+
+  <!-- Fort Information -->
+ <section class="fort-container">
+  <h1 class="fort-title">Raigad Fort</h1>
+
+  <p>
+    Raigad Fort was the capital of the Maratha Empire from 1674 to 1818. It is located on a hilltop in the Sahyadri Mountains and is considered to be one of the most important forts in Indian history. The fort is well-preserved and offers stunning views of the surrounding countryside.
+  </p>
+
+  <p>
+    Raigad Fort, also known as Rairi or Rairy Fort, is a magnificent hill fort situated in the Sahyadri mountain range, overlooking the town of Mahad in the Raigad district of Maharashtra. Standing tall at an elevation of 2,700 feet (820 meters) above its base and 4,449 feet (1,356 meters) above sea level, Raigad Fort offers breathtaking panoramic views of the surrounding landscape.
+  </p>
+
+  <h2>Historical Significance</h2>
+  <p>
+    Raigad Fort holds immense historical significance as it served as the capital of the Maratha Empire under the legendary Chhatrapati Shivaji Maharaj. In 1674, Shivaji was crowned the king of the Maratha kingdom, and Raigad Fort became the center of his administrative and military operations. During his reign, the Maratha Empire flourished and expanded considerably.
+  </p>
+
+  <h2>Architectural Features</h2>
+  <p>
+    Raigad Fort is a testament to the architectural brilliance of the Maratha era. Its construction was overseen by Shivaji himself, alongside his chief engineer, Hiroji Indulkar. The fort's layout is designed for defense, with multiple layers of fortification, bastions, and gateways.
+  </p>
+
+  <h2>Accessing Raigad Fort</h2>
+  <p>
+    Visitors can climb approximately 1,737 steps, enjoying a scenic and invigorating experience. Alternatively, the Raigad Ropeway provides quick access to the top via an aerial tramway spanning 2,460 feet (750 meters).
+  </p>
+
+  <h2>Visiting Hours</h2>
+  <p>
+    Raigad Fort is open from <strong>9:00 AM to 5:00 PM</strong>. The best time to visit is between October and March for pleasant weather and stunning views.
+  </p>
+
+  <div class="back-btn">
+    <button><a href="./forts.html" class="floating-back-btn">🔙 Back to Forts</a></button>
+  </div>
+</section>
+
+
+<section>
+   <div class="location-section">
+     <!-- Google Maps Button -->
+    <button><a href="https://www.google.com/maps/place/Raigad+Fort/" class="btn" target="_blank" rel="noopener noreferrer">Open in Google Maps </a></button>
+  <!-- Heading -->
+  <h3>Location on Map</h3>
+  <!-- Embedded Google Map -->
+  <div class="map-container">
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.349013026853!2d73.44211007496452!3d18.234420482567074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc3df423dbfc51f%3A0xd2ad4c8f19814690!2sRaigad%20Fort!5e0!3m2!1sen!2sin!4v1717859949317!5m2!1sen!2sin" 
+      width="100%" 
+      height="400" 
+      style="border:0;" 
+      allowfullscreen 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade"
+      title="Raigad Fort Location Map"
+    ></iframe>
+  </div>
+</section>
+
+<section class="stay-info">
+  <h2> Lodging & Camping Near Raigad Fort</h2>
+
+  <div class="stay-box">
+    <h3>1. Raigad Ropeway Lodging</h3>
+    <p>
+      Located at the ropeway stations (top & bottom), this is the most convenient option for visitors.
+      Offers <strong>A/C & non‑A/C rooms, dormitories, and tents</strong>. Great for families or group stays.
+      <br>
+       <a href="https://raigadropeway.com/accommodation.html" target="_blank" rel="noopener noreferrer">raigadropeway.com</a>
+    </p>
+  </div>
+
+  <div class="stay-box">
+    <h3>2. Residency Lake Resort & Spa</h3>
+    <p>
+      Luxury resort ~27 km from Raigad Fort with <strong>spa, pool, and forest views</strong>. Great for relaxing stays.
+      <br>
+       <a href="https://www.expedia.com/Raigad-Fort-Hotels.0-l553248635939591841-0.Travel-Guide-Filter-Hotels" target="_blank">expedia.com</a>
+    </p>
+  </div>
+
+  <div class="stay-box">
+    <h3>3. Gunjan Farms – Resort & Camping</h3>
+    <p>
+      Offers cottages and tents with outdoor adventures like <strong>trekking, zip-lining, and campfires</strong>. ~26 km from the fort.
+      <br>
+       <a href="https://www.trip.com/hotels/raigad-raigad-fort/hotels-c536429m14496723" target="_blank">trip.com</a>
+    </p>
+  </div>
+
+  <div class="stay-box">
+    <h3>4. Budget Hotels Nearby</h3>
+    <p>
+      Affordable options include Hotel Landmark Inn, Zostel Kolad, and Vamoose Rajdhani (₹1500–₹5000/night).
+      <br>
+       <a href="https://www.hotels.com/de11425578/hotels-near-raigad-fort-mahad-india/" target="_blank">hotels.com</a>
+    </p>
+  </div>
+</section>
+
+
+  <!-- Gallery -->
+  <section class="gallery">
+  <h2>Gallery</h2>
+  <div class="gallery-polaroid">
+
+    <div class="polaroid rotate-left">
+      <img src="./assets/raigad-main-door.jpg" alt="Raigad Main Gate" />
+      <p>Raigad Main Gate</p>
+    </div>
+
+    <div class="polaroid rotate-right">
+      <img src="./assets/samadi.jpg" alt="Shivaji Maharaj Samadhi" />
+      <p>Shivaji Maharaj Samadhi</p>
+    </div>
+
+    <div class="polaroid rotate-left-more">
+      <img src="./assets/darbar-hall.jpg" alt="Durbar Hall" />
+      <p>Durbar Hall</p>
+    </div>
+
+    <div class="polaroid rotate-right-more">
+      <img src="./assets/raigad(2).jpeg" alt="View from Raigad" />
+      <p>View from Raigad</p>
+    </div>
+
+    <div class="polaroid rotate-left">
+      <img src="./assets/Raigad-top.jpg" alt="Raigad Top View" />
+      <p>Raigad Top View</p>
+    </div>
+
+    <div class="polaroid rotate-left">
+      <img src="./assets/raigad(3).webp" alt="Raigad View" />
+      <p>Raigad Amazing View</p>
+    </div>
+
+    <div class="polaroid rotate-left">
+      <img src="./assets/discover-raigad.png" alt="Raigad Info" />
+      <p>Raigad Info</p>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Footer -->
+  <footer class="fort-footer">
+  <p>📍 Raigad Fort, Maharashtra, India | ✉️ shivajilegacy@forts.com</p>
+  <p>© 2025 Shivaji Maharaj Fort Heritage. All rights reserved.</p>
+  <div class="social-icons">
+    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" /></a>
+    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" /></a>
+    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter" /></a>
+  </div>
+</footer>
+</body>
+</html>

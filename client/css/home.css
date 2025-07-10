@@ -1,0 +1,458 @@
+/* Reset & Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #011529;
+  color: #fff;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+.logo {
+  display:grid 2;
+  align-items: left;
+  gap: 0;
+}
+
+.logo img {
+  width: 80%; 
+  height: auto;
+}
+
+.logo h2 {
+  margin: 0;
+  font-size: 50px;
+  color: whitesmoke;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin-top: 55%;
+  margin-right: 25px;
+  gap: 30px;
+}
+
+nav a {
+  color: #fff;
+  font-size: 30px;
+  margin-right: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  position: relative;
+  transition: color 0.3s;
+}
+
+nav a::after {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: orange;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  transition: 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: orange;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+/* Carousel full width and height */
+#raigadCarousel {
+  position: relative;
+  width: 100%;
+  max-height: 600px;
+  overflow: hidden;
+  border-bottom: 3px solid #c58f00;
+}
+
+/* Carousel images */
+#raigadCarousel .carousel-item img {
+  object-fit: cover;
+  height: 100%;
+  max-height: 600px;
+  filter: brightness(90%);
+  transition: transform 0.5s ease;
+}
+
+/* Hover zoom effect */
+#raigadCarousel .carousel-item:hover img {
+  transform: scale(1.03);
+}
+
+/* Carousel captions */
+.carousel-caption {
+  bottom: 20%;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px 25px;
+  border-radius: 10px;
+}
+
+.carousel-caption h1 {
+  font-size: 55px;
+  font-weight: bold;
+  color: #ffd700;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.carousel-caption p {
+  font-size: 30px;
+  color: #fff;
+  margin-top: 10px;
+}
+
+/* Controls: arrows */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .carousel-caption {
+    bottom: 10%;
+    padding: 15px;
+  }
+
+  .carousel-caption h1 {
+    font-size: 1.8rem;
+  }
+
+  .carousel-caption p {
+    font-size: 1rem;
+  }
+}
+
+
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 5%;
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/94/15/577/nature-sky-hill-station-highland-wallpaper-preview.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  max-width: 50%;
+  margin-bottom: 30%;
+}
+
+.hero-text h1 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  color: #444;
+  margin: 0;
+}
+
+.hero img {
+  border-radius: 30px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Forts Section */
+/* Forts Section */
+.forts {
+  padding: 50px 5%;
+  text-align: center;
+  background-color: beige;
+}
+
+.forts h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  color: #2c3e50;
+  text-shadow: 1px 1px #ddd;
+}
+
+/* Fort Cards Grid */
+.forts-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-top: 20px;
+}
+
+/* Individual Card Styling */
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  flex-direction: column;
+  object-fit: cover;
+  display: block;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Card Title */
+.card h3 {
+  padding: 15px;
+  font-size: 26px;
+  color: #0d5eae;
+  margin: 0;
+}
+
+/* Button Styling */
+.btn {
+  font-size: 18px;
+  display: inline-block;
+  margin: 0 auto 20px;
+  padding: 12px 24px;
+  background-color: #e67e22 !important;
+  color: #fff !important;
+  border: none;
+  border-radius: 45px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #d35400 !important;
+}
+
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .forts-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .forts-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .card h3 {
+    font-size: 22px;
+  }
+
+  .btn {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+}
+
+
+
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero img {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+}
+
+
+/* Container layout */
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Column styling */
+.footer-column {
+  flex: 1 1 200px;
+  min-width: 220px;
+  font-size: 20px;
+}
+
+.footer-column h4 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #111;
+  border-bottom: 2px solid #d32f2f;
+  display: inline-block;
+  padding-bottom: 4px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin: 8px 0;
+  font-size: 22px;
+}
+
+.footer-column ul li a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+  color: #d32f2f;
+}
+
+/* Brand section */
+.brand-info h2 {
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+
+.fort-name {
+  color: teal;
+  font-size: 40px;
+}
+
+.fort-xl {
+  color: #d32f2f;
+}
+
+/* Footer Bottom Section */
+.footer-bottom {
+  text-align: center;
+  margin-top: 40px;
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+  font-size: 20px;
+  color: #555;
+}
+
+/* Social icons */
+.social-icons {
+  margin-bottom: 15px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+  transition: transform 0.3s ease;
+}
+
+.social-icons img {
+  width: 28px;
+  height: 28px;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-column {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .footer-bottom {
+    text-align: left;
+    font-size: 14px;
+  }
+
+  .social-icons {
+    text-align: left;
+  }
+}
+
+/* Footer-bottom */
+.fort-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 20px;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 50px;
+  border-top: 4px solid #d32f2f;
+}
+
+.fort-footer p {
+  margin: 8px 0;
+  font-size: 18px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.fort-footer .social-icons {
+  margin-top: 12px;
+}
+
+.fort-footer .social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+  transition: transform 0.3s ease;
+}
+
+.fort-footer .social-icons img {
+  width: 30px;
+  height: 30px;
+ 
+}
+
+.fort-footer .social-icons a:hover {
+  transform: scale(1.2);
+}
+
+
+ 

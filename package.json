@@ -1,0 +1,17 @@
+{
+  "name": "forts",
+  "version": "1.0.0",
+  "description": "Exploring Chhatrapati Shivaji Maharaj Forts and their History Information.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "'kranti Pophalkar'",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "bootstrap": "^5.3.7",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
